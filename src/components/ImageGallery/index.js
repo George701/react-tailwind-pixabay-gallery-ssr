@@ -9,7 +9,6 @@ const ImageGallery = ({ fetchImages, images, isLoading }) => {
   const [term, setTerm] = useState('');
 
   useEffect(() => {
-    console.log('I am still in use');
     fetchImages(term);
   }, [term, fetchImages]);
 
