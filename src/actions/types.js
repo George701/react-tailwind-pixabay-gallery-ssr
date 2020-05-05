@@ -1,0 +1,2 @@
+export const FETCH_IMAGES = 'FETCH_IMAGES';
+export const IS_LOADING_STATE = 'IS_LOADING_STATE';
